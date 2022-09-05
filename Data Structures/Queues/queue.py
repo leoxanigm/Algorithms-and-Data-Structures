@@ -25,6 +25,7 @@ class Queue():
 
         top = self.head
         self.collection = self.collection[1:]
+        return top
 
     def enqueue(self, item):
         self.collection.append(item)
